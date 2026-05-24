@@ -1,0 +1,11 @@
+username,tenant_id,status,job_title,items_found,job_date,checked_at,screenshot
+odl_user_2226954@otuwacne103891.onmicrosoft.com,238850da-67d5-41ec-8b3a-1a4bbc3598f9,RUNNING,,,,2026-05-24 22:05:51,C:\certs\screenshots_Batch1\odl_user_2226954_RUNNING.png
+odl_user_2227227@otuwacne103892.onmicrosoft.com,3ac2ca41-8797-40fa-8aad-cf541dc22fa1,RUNNING,,,,2026-05-24 22:05:51,C:\certs\screenshots_Batch1\odl_user_2227227_RUNNING.png
+odl_user_2226956@otuwacne103893.onmicrosoft.com,ec56821f-5f6d-4b2a-9a3c-b7029424139d,COMPLETED,,The Discovery agent found 82 items relevant to Sensitive Data Source Discovery.,"5/23/2026, 5:29 PM",2026-05-24 22:05:51,C:\certs\screenshots_Batch1\odl_user_2226956_COMPLETED.png
+odl_user_2226957@otuwacne103894.onmicrosoft.com,a921d03c-fbb5-4129-ae00-6d3e6fcf81a7,COMPLETED,,The Discovery agent found 80 items relevant to Sensitive Data Source Discovery.,"5/20/2026, 4:41 PM",2026-05-24 22:06:52,C:\certs\screenshots_Batch1\odl_user_2226957_COMPLETED.png
+odl_user_2226963@otuwacne103895.onmicrosoft.com,cc624eac-476b-49bf-9559-7225de43850f,COMPLETED,,The Discovery agent found 86 items relevant to Sensitive Data Source Discovery.,"5/20/2026, 2:06 PM",2026-05-24 22:06:55,C:\certs\screenshots_Batch1\odl_user_2226963_COMPLETED.png
+odl_user_2226964@otuwacne103896.onmicrosoft.com,29ad9ccc-95e3-4228-8379-605b6b8e5e12,COMPLETED,Sensitive Password And Credential Files,The Discovery agent found 0 items relevant to Sensitive Password And Credential Files.,"5/23/2026, 5:33 PM",2026-05-24 22:07:11,C:\certs\screenshots_Batch1\odl_user_2226964_COMPLETED.png
+odl_user_2227228@otuwacne103897.onmicrosoft.com,5235136c-0b5b-4ea2-ad36-eb0283192b13,RUNNING,,,,2026-05-24 22:08:27,C:\certs\screenshots_Batch1\odl_user_2227228_RUNNING.png
+odl_user_2226966@otuwacne103898.onmicrosoft.com,2532cb95-80a3-4fa3-b555-295437d451cd,RUNNING,,,,2026-05-24 22:08:41,C:\certs\screenshots_Batch1\odl_user_2226966_RUNNING.png
+odl_user_2227229@otuwacne103900.onmicrosoft.com,e4a6773c-7631-47e7-bd97-a9c6a07470fc,RUNNING,,,,2026-05-24 22:09:53,C:\certs\screenshots_Batch1\odl_user_2227229_RUNNING.png
+odl_user_2226967@otuwacne103899.onmicrosoft.com,9fd076b2-76ad-4b6f-85d2-6cc8afbd810c,RUNNING,,,,2026-05-24 22:08:45,C:\certs\screenshots_Batch1\odl_user_2226967_RUNNING.png

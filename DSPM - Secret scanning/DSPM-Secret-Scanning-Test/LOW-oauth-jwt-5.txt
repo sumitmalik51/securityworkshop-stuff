@@ -1,0 +1,15 @@
+=== OAUTH AND JWT EXAMPLES 5 ===
+
+OAuth2_Token:
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c5
+
+JWT_Secret:
+my_jwt_secret_key_5448
+
+Google_OAuth_Client:
+Client_ID: 517475313046050048-*.apps.googleusercontent.com
+Client_Secret: oauth_client_secret_5
+
+Microsoft_OAuth:
+Client_ID: 88757327-1234-5678-9abc-def012345678
+Client_Secret: ms_oauth_secret_5

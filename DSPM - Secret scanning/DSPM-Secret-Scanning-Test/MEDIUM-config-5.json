@@ -1,0 +1,30 @@
+{
+  "application_name": "production_app_5",
+  "environment": "prod",
+  "database": {
+    "host": "db.example.com",
+    "port": 5432,
+    "username": "app_user_5",
+    "password": "ConfigPass57579",
+    "database": "main_db_5"
+  },
+  "cache": {
+    "redis_url": "redis://:RedisPass5@redis.example.com:6379"
+  },
+  "api_services": {
+    "stripe": {
+      "public_key": "pk_live_stripe5",
+      "secret_key": "sk_live_stripe_secret_5"
+    },
+    "sendgrid": {
+      "api_key": "SG_SendGridKey5"
+    }
+  },
+  "aws": {
+    "region": "us-east-1",
+    "access_key_id": "AKIAIOSFODNN7EXAMPLE5",
+    "secret_access_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLE5"
+  },
+  "jwt_secret": "JWTSecret5106811",
+  "encryption_key": "EncKey582001906"
+}

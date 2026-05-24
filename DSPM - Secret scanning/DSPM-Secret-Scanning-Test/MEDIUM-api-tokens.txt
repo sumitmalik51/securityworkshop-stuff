@@ -1,0 +1,17 @@
+API TOKENS - INTERNAL USE ONLY
+================================
+
+GitHub Personal Access Token:
+ghp_1234567890abcdefghijklmnopqrstuvwxyz
+
+GitLab Access Token:
+glpat-abCdEfGhIjKlMnOpQrSt
+
+Docker Registry Token:
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+
+Slack Webhook URL:
+https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXX
+
+Microsoft Teams Webhook:
+https://outlook.webhook.office.com/webhookb2/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx@xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/IncomingWebhook/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

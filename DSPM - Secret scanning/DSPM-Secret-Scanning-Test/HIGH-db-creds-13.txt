@@ -1,0 +1,14 @@
+=== DATABASE CREDENTIALS 13 ===
+Server=sqlserver-13.database.windows.net:1433
+Database=production_db_13
+Username=dba_admin_13
+Password=DbSecure#137261
+Connection_Timeout=30
+
+JDBC: jdbc:sqlserver://dbhost-13.com:1433;database=mydb;user=admin;password=SQLPass123!13;
+MongoDB: mongodb+srv://admin_13@cluster-13.mongodb.net/prod?retryWrites=true&w=majority
+PostgreSQL: postgresql://user_13@postgres-13.com:5432/mydb
+MySQL: mysql://root:MySQLRoot13@mysql-13.local:3306/database
+
+Redis: redis://:RedisAuth13@cache-13.com:6379
+Cassandra: cassandra://node-13.cluster.com:9042 username=admin password=CassPass13

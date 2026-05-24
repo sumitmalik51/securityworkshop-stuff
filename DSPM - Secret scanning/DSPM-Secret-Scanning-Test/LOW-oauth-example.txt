@@ -1,0 +1,21 @@
+OAuth Configuration Example
+=============================
+
+Sample OAuth Client Credentials (for testing only):
+
+Client ID: 7f3b8e9d-1234-5678-9abc-def012345678
+Client Secret: 3kL9mN2pQ4rS6tU8vW0xY2z4aB6cD8eF0gH2
+
+Authorization Code Grant Example:
+https://auth.example.com/authorize?client_id=7f3b8e9d-1234-5678-9abc-def012345678&response_type=code&redirect_uri=https://app.example.com/callback
+
+Access Token Response:
+{
+  "access_token": "ya29.a0AfH6SMBx1234567890abcdefghijklmnopqrstuvwxyz",
+  "expires_in": 3599,
+  "scope": "https://www.googleapis.com/auth/userinfo.email",
+  "token_type": "Bearer"
+}
+
+JWT Example:
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ

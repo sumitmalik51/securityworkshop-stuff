@@ -1,0 +1,26 @@
+=== API KEYS AND CREDENTIALS 20 ===
+
+AWS KEYS:
+Access_Key: AKIA7Q4K5JKLS20824
+Secret_Key: wJalrXUtnFEMIK7MDENG/bPxRfiCYExample20
+
+Azure Storage:
+Account_Name: storage20
+Account_Key: DefaultEndpointsProtocol=https;AccountName=storage20;AccountKey=DefaultEndpointsProtocol=https;AccountName=storage20;AccountKey=OwJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY20==;
+
+Stripe:
+Public_Key: pk_live_20805212
+Secret_Key: sk_live_4eC39HqLyjWDarhtT657tSRf20
+
+Twilio:
+Account_SID: AC658629054
+Auth_Token: your_auth_token_20
+
+SendGrid:
+API_Key: SG.BkiGWzEJSJi4Dua5bI5SPA20
+
+GitHub:
+Token: ghp_gxvlna7uk9e615p2rwyodf3jc8ztbmi40qhs
+
+OpenAI:
+API_Key: sk-proj-747410ExampleKey20

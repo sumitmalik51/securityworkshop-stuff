@@ -1,0 +1,13 @@
+=== WEBHOOK URLS AND SECRETS 1 ===
+
+Slack_Webhook:
+https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXX1
+
+Microsoft_Teams:
+https://outlook.webhook.office.com/webhookb2/98427/IncomingWebhook/152462605/1
+
+GitHub_Webhook_Secret:
+github_webhook_secret_1922264
+
+Discord_Webhook:
+https://discordapp.com/api/webhooks/354148860733731840/_1

@@ -1,0 +1,14 @@
+=== DATABASE CREDENTIALS 12 ===
+Server=sqlserver-12.database.windows.net:1433
+Database=production_db_12
+Username=dba_admin_12
+Password=DbSecure#122328
+Connection_Timeout=30
+
+JDBC: jdbc:sqlserver://dbhost-12.com:1433;database=mydb;user=admin;password=SQLPass123!12;
+MongoDB: mongodb+srv://admin_12@cluster-12.mongodb.net/prod?retryWrites=true&w=majority
+PostgreSQL: postgresql://user_12@postgres-12.com:5432/mydb
+MySQL: mysql://root:MySQLRoot12@mysql-12.local:3306/database
+
+Redis: redis://:RedisAuth12@cache-12.com:6379
+Cassandra: cassandra://node-12.cluster.com:9042 username=admin password=CassPass12

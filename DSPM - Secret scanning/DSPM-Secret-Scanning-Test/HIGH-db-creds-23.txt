@@ -1,0 +1,14 @@
+=== DATABASE CREDENTIALS 23 ===
+Server=sqlserver-23.database.windows.net:1433
+Database=production_db_23
+Username=dba_admin_23
+Password=DbSecure#232088
+Connection_Timeout=30
+
+JDBC: jdbc:sqlserver://dbhost-23.com:1433;database=mydb;user=admin;password=SQLPass123!23;
+MongoDB: mongodb+srv://admin_23@cluster-23.mongodb.net/prod?retryWrites=true&w=majority
+PostgreSQL: postgresql://user_23@postgres-23.com:5432/mydb
+MySQL: mysql://root:MySQLRoot23@mysql-23.local:3306/database
+
+Redis: redis://:RedisAuth23@cache-23.com:6379
+Cassandra: cassandra://node-23.cluster.com:9042 username=admin password=CassPass23

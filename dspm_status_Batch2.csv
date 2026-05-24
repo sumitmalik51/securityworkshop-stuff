@@ -1,0 +1,20 @@
+username,tenant_id,status,job_title,items_found,job_date,checked_at
+odl_user_2227035@otuwacne103948.onmicrosoft.com,df7d81ec-95e7-47d4-9ed0-0d73ab04e3d0,RUNNING,,,,2026-05-23 18:46:58
+odl_user_2227036@otuwacne103949.onmicrosoft.com,b1ed5703-8bd0-4f81-ae98-ec3ef7c10c27,RUNNING,,,,2026-05-23 18:46:58
+odl_user_2227234@otuwacne103946.onmicrosoft.com,ce2d853e-7aa7-4c09-9d3c-3ba7db826653,RUNNING,,,,2026-05-23 18:46:58
+odl_user_2227034@otuwacne103945.onmicrosoft.com,65b6c862-abe8-4775-bf1b-f04512114af1,RUNNING,,,,2026-05-23 18:46:58
+odl_user_2227235@otuwacne103947.onmicrosoft.com,76b4a96c-05d0-488d-9d65-d2f2c903dff6,RUNNING,,,,2026-05-23 18:46:58
+odl_user_2227038@otuwacne103952.onmicrosoft.com,55fdf1aa-ad94-4198-ac1b-68717a4a8fc5,RUNNING,,,,2026-05-23 18:48:44
+odl_user_2227037@otuwacne103951.onmicrosoft.com,b61fd3b5-554d-4e28-8601-ed0dac162077,RUNNING,,,,2026-05-23 18:48:43
+odl_user_2227236@otuwacne103950.onmicrosoft.com,2c3790df-5ea3-4041-beae-f56d674c9dc6,RUNNING,,,,2026-05-23 18:48:43
+odl_user_2227040@otuwacne103954.onmicrosoft.com,7bfbd78a-45a0-4671-a309-c4fb32d5bc5a,RUNNING,,,,2026-05-23 18:49:01
+odl_user_2227237@otuwacne103956.onmicrosoft.com,265daf79-065a-4b05-8cff-f07a9c200303,RUNNING,,,,2026-05-23 18:49:55
+odl_user_2227041@otuwacne103955.onmicrosoft.com,d9baa514-5975-4392-b08f-664d3c0fea6f,COMPLETED,Sensitive Password And Credential Files,The Discovery agent found 97 items relevant to Password And Credential File Discovery.,"5/23/2026, 12:22 AM",2026-05-23 18:49:55
+odl_user_2227238@otuwacne103957.onmicrosoft.com,a62bd3b3-81da-4d05-849f-7aa531392d00,RUNNING,,,,2026-05-23 18:50:06
+odl_user_2227239@otuwacne103958.onmicrosoft.com,39cc44fb-7d6d-477a-9d3e-8d297b8b7b27,COMPLETED,,The Discovery agent found 86 items relevant to Sensitive Data Source Discovery.,"5/20/2026, 2:58 PM",2026-05-23 18:50:06
+odl_user_2227039@otuwacne103953.onmicrosoft.com,cbbe8e31-df15-4f69-8758-49dd3fc41410,ERROR,,,,2026-05-23 18:48:57
+odl_user_2227043@otuwacne103961.onmicrosoft.com,c373a689-4210-43eb-8365-62ceacf3c2d7,RUNNING,,,,2026-05-23 18:51:17
+odl_user_2227240@otuwacne103960.onmicrosoft.com,d3e105f7-469f-424d-8951-c83ac7cf597d,RUNNING,,,,2026-05-23 18:51:17
+odl_user_2227045@otuwacne103963.onmicrosoft.com,0b23844d-215b-466f-8100-b03bbb5f3911,RUNNING,,,,2026-05-23 18:51:24
+odl_user_2227044@otuwacne103962.onmicrosoft.com,152c40d7-5a3a-4f32-af08-57fcc2287489,RUNNING,,,,2026-05-23 18:51:17
+odl_user_2227042@otuwacne103959.onmicrosoft.com,360ebf92-46dc-4d94-9c5b-2716e53460fc,RUNNING,,,,2026-05-23 18:51:17

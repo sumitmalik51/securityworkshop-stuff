@@ -1,0 +1,32 @@
+{
+  "name": "production-config",
+  "version": "1.0.0",
+  "database": {
+    "host": "prod-db.example.com",
+    "port": 5432,
+    "username": "app_user",
+    "password": "DbP@ss2024!Secure",
+    "database": "main_db"
+  },
+  "cache": {
+    "redis": {
+      "host": "redis-prod.example.com",
+      "port": 6379,
+      "auth": "RedisP@ss#123456"
+    }
+  },
+  "external_services": {
+    "aws": {
+      "region": "us-east-1",
+      "access_key": "AKIAIOSFODNN7EXAMPLE",
+      "secret_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+    },
+    "sendgrid": {
+      "api_key": "SG.1234567890abcdefghijklmnopqrstuvwxyz"
+    }
+  },
+  "certificate": {
+    "path": "/etc/ssl/private/server.key",
+    "passphrase": "CertP@ss123!"
+  }
+}

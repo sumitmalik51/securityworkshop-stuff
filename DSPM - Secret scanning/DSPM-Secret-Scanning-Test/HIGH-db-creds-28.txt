@@ -1,0 +1,14 @@
+=== DATABASE CREDENTIALS 28 ===
+Server=sqlserver-28.database.windows.net:1433
+Database=production_db_28
+Username=dba_admin_28
+Password=DbSecure#282331
+Connection_Timeout=30
+
+JDBC: jdbc:sqlserver://dbhost-28.com:1433;database=mydb;user=admin;password=SQLPass123!28;
+MongoDB: mongodb+srv://admin_28@cluster-28.mongodb.net/prod?retryWrites=true&w=majority
+PostgreSQL: postgresql://user_28@postgres-28.com:5432/mydb
+MySQL: mysql://root:MySQLRoot28@mysql-28.local:3306/database
+
+Redis: redis://:RedisAuth28@cache-28.com:6379
+Cassandra: cassandra://node-28.cluster.com:9042 username=admin password=CassPass28

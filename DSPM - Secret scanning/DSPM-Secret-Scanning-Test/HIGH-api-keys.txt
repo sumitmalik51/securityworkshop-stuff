@@ -1,0 +1,29 @@
+API KEYS AND TOKENS - DO NOT SHARE
+====================================
+
+Stripe API Key:
+sk_live_4eC39HqLyjWDarhtT657tSRf
+
+AWS Access Keys:
+Access Key ID: AKIAIOSFODNN7EXAMPLE
+Secret Access Key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+Azure Storage Account Key:
+DefaultEndpointsProtocol=https;
+AccountName=myaccount;
+AccountKey=DefaultEndpointsProtocol=https;AccountName=myaccount;AccountKey=OwJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY==;
+
+Azure Service Principal:
+Tenant ID: 936d889e-dfaf-47c3-beab-d9684596a5d9
+Client ID: 550e8400-e29b-41d4-a716-446655440000
+Client Secret: ~8Q~lJr.rASbj4Zq_x3wRdT@mX8fLp2KvNqU5wAbC
+
+Twilio Account SID and Auth Token:
+Account SID: ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Auth Token: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+SendGrid API Key:
+SG.BkiGWzEJSJi4Dua5bI5SPA.GLm52Vp4yL8G-9T6rK4zU2U3V4W5X6Y7Z8a9b0c1d2e3f
+
+OpenAI API Key:
+sk-proj-AbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUv
