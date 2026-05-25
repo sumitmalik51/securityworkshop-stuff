@@ -22,8 +22,83 @@ HEADERS = [
     "Tenant ID", "Subscription ID", "App ID", "App Secret",
     "Org Name", "Lab Name",
     "Status", "Job Title", "Items Found", "Job Date", "Checked At",
-    "Screenshot File"
+    "Screenshot File", "Remark"
 ]
+
+# Remarks from screenshot analysis for NOT_FOUND accounts
+NOT_FOUND_REMARKS = {
+    # Batch1
+    "odl_user_2226984": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2226992": "Switch to classic portal dialog blocking content",
+    "odl_user_2227021": "Switch to classic portal dialog blocking content",
+    "odl_user_2227233": "Switch to classic portal dialog blocking content",
+    "odl_user_2227842": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227843": "Switch to classic portal dialog blocking content",
+    # Batch2
+    "odl_user_2227039": "Login failed - stuck on Microsoft Sign-in page",
+    "odl_user_2227043": "Blank/empty Posture Agent tab",
+    "odl_user_2227059": "Blank/empty Posture Agent tab",
+    "odl_user_2227242": "Blank/empty Posture Agent tab",
+    "odl_user_2227844": "Blank/empty Posture Agent tab",
+    "odl_user_2227845": "Insufficient permissions - needs Purview Content Analyst role",
+    # Batch3
+    "odl_user_2227091": "Blank/empty Asset explorer page",
+    "odl_user_2227093": "Blank/empty Asset explorer page",
+    "odl_user_2227126": "Blank/empty Asset explorer page",
+    "odl_user_2227129": "Page loading timeout - spinner/shimmer visible",
+    "odl_user_2227131": "Blank/empty Asset explorer page",
+    # Batch4
+    "odl_user_2227168": "Blank/empty Asset explorer page",
+    "odl_user_2227178": "Blank/empty Asset explorer page",
+    "odl_user_2227846": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227848": "Blank/empty Asset explorer page",
+    "odl_user_2227855": "Blank/empty Asset explorer page",
+    "odl_user_2227856": "Insufficient permissions - needs Purview Content Analyst role",
+    # Batch5
+    "odl_user_2227195": "Blank/empty Posture Agent tab",
+    "odl_user_2227196": "Blank/empty Posture Agent tab",
+    "odl_user_2227321": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227322": "Blank/empty Posture Agent tab",
+    "odl_user_2227323": "Blank/empty Posture Agent tab",
+    "odl_user_2227324": "Blank/empty Posture Agent tab",
+    "odl_user_2227325": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227326": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227327": "Blank/empty Posture Agent tab",
+    "odl_user_2227328": "Blank/empty Posture Agent tab",
+    "odl_user_2227330": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227331": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227332": "Blank/empty Posture Agent tab",
+    "odl_user_2227335": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227337": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227339": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227342": "Blank/empty Posture Agent tab",
+    "odl_user_2227343": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227345": "Blank/empty Posture Agent tab",
+    "odl_user_2227346": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227414": "Blank/empty Posture Agent tab",
+    "odl_user_2227418": "Blank/empty Posture Agent tab",
+    "odl_user_2227421": "Blank/empty Posture Agent tab",
+    "odl_user_2227423": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227495": "Blank/empty Posture Agent tab",
+    "odl_user_2227496": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227498": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227500": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227501": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227502": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227503": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227506": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227507": "Blank/empty Posture Agent tab",
+    "odl_user_2227508": "Blank/empty Posture Agent tab",
+    "odl_user_2227510": "Blank/empty Posture Agent tab",
+    "odl_user_2227511": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227512": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227513": "Blank/empty Posture Agent tab",
+    "odl_user_2227812": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227813": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227821": "Blank/empty Posture Agent tab",
+    "odl_user_2227825": "Insufficient permissions - needs Purview Content Analyst role",
+    "odl_user_2227827": "Insufficient permissions - needs Purview Content Analyst role",
+}
 
 
 def load_spns_data():
@@ -134,6 +209,13 @@ def create_excel(results, spns):
             username = r.get("username", "")
             spn = spns.get(username, {})
 
+            # Derive remark for NOT_FOUND accounts from screenshot analysis
+            remark = ""
+            if status == "NOT_FOUND":
+                # Extract odl_user key from username (email) e.g. odl_user_2227195@...
+                user_key = username.split("@")[0] if "@" in username else username
+                remark = NOT_FOUND_REMARKS.get(user_key, "")
+
             row_data = [
                 r.get("batch", ""),
                 username,
@@ -151,6 +233,7 @@ def create_excel(results, spns):
                 r.get("job_date", ""),
                 r.get("checked_at", ""),
                 os.path.basename(r.get("screenshot", "")) if r.get("screenshot") else "",
+                remark,
             ]
 
             for col_idx, value in enumerate(row_data, 1):
