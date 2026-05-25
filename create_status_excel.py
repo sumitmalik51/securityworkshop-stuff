@@ -25,61 +25,61 @@ HEADERS = [
     "Screenshot File", "Remark"
 ]
 
-# Remarks from screenshot analysis for NOT_FOUND accounts
-NOT_FOUND_REMARKS = {
+# Remarks for all accounts (NOT_FOUND + rechecked accounts that moved to RUNNING/COMPLETED)
+ACCOUNT_REMARKS = {
     # Batch1
     "odl_user_2226984": "Insufficient permissions - needs Purview Content Analyst role",
-    "odl_user_2226992": "Switch to classic portal dialog blocking content",
-    "odl_user_2227021": "Switch to classic portal dialog blocking content",
-    "odl_user_2227233": "Switch to classic portal dialog blocking content",
+    "odl_user_2226992": "Recheck v2: COMPLETED - View insights (29 items found)",
+    "odl_user_2227021": "Recheck v2: RUNNING - Job in progress",
+    "odl_user_2227233": "Recheck v2: RUNNING - Job in progress",
     "odl_user_2227842": "Insufficient permissions - needs Purview Content Analyst role",
-    "odl_user_2227843": "Switch to classic portal dialog blocking content",
+    "odl_user_2227843": "Recheck v2: NO_PERMISSION - Insufficient permissions",
     # Batch2
-    "odl_user_2227039": "Login failed - stuck on Microsoft Sign-in page",
-    "odl_user_2227043": "Blank/empty Posture Agent tab",
-    "odl_user_2227059": "Blank/empty Posture Agent tab",
-    "odl_user_2227242": "Blank/empty Posture Agent tab",
-    "odl_user_2227844": "Blank/empty Posture Agent tab",
+    "odl_user_2227039": "Recheck v2: LOGIN_FAILED - Stuck on login page",
+    "odl_user_2227043": "Recheck v2: RUNNING - Pick up where you left off",
+    "odl_user_2227059": "Recheck v2: RUNNING - Pick up where you left off",
+    "odl_user_2227242": "Recheck v2: RUNNING - Pick up where you left off",
+    "odl_user_2227844": "Recheck v2: NO_PERMISSION - Insufficient permissions",
     "odl_user_2227845": "Insufficient permissions - needs Purview Content Analyst role",
     # Batch3
-    "odl_user_2227091": "Blank/empty Asset explorer page",
-    "odl_user_2227093": "Blank/empty Asset explorer page",
-    "odl_user_2227126": "Blank/empty Asset explorer page",
-    "odl_user_2227129": "Page loading timeout - spinner/shimmer visible",
-    "odl_user_2227131": "Blank/empty Asset explorer page",
+    "odl_user_2227091": "Recheck v2: CLASSIC_DIALOG - Classic portal dialog blocking",
+    "odl_user_2227093": "Recheck v2: RUNNING - Pick up where you left off",
+    "odl_user_2227126": "Recheck v2: RUNNING - Pick up where you left off",
+    "odl_user_2227129": "Recheck v2: RUNNING - Pick up where you left off",
+    "odl_user_2227131": "Recheck v2: RUNNING - Job in progress",
     # Batch4
-    "odl_user_2227168": "Blank/empty Asset explorer page",
-    "odl_user_2227178": "Blank/empty Asset explorer page",
+    "odl_user_2227168": "Recheck v2: CLASSIC_DIALOG - Classic portal dialog blocking",
+    "odl_user_2227178": "Recheck v2: RUNNING - Pick up where you left off",
     "odl_user_2227846": "Insufficient permissions - needs Purview Content Analyst role",
-    "odl_user_2227848": "Blank/empty Asset explorer page",
-    "odl_user_2227855": "Blank/empty Asset explorer page",
+    "odl_user_2227848": "Recheck v2: NO_PERMISSION - Insufficient permissions",
+    "odl_user_2227855": "Recheck v2: CLASSIC_DIALOG - Classic portal dialog blocking",
     "odl_user_2227856": "Insufficient permissions - needs Purview Content Analyst role",
     # Batch5
-    "odl_user_2227195": "Blank/empty Posture Agent tab",
-    "odl_user_2227196": "Blank/empty Posture Agent tab",
+    "odl_user_2227195": "Recheck v2: RUNNING - Pick up where you left off",
+    "odl_user_2227196": "Recheck v2: CLASSIC_DIALOG - Classic portal dialog blocking",
     "odl_user_2227321": "Insufficient permissions - needs Purview Content Analyst role",
-    "odl_user_2227322": "Blank/empty Posture Agent tab",
-    "odl_user_2227323": "Blank/empty Posture Agent tab",
-    "odl_user_2227324": "Blank/empty Posture Agent tab",
+    "odl_user_2227322": "Recheck v2: NO_PERMISSION - Insufficient permissions",
+    "odl_user_2227323": "Recheck v2: CLASSIC_DIALOG - Classic portal dialog blocking",
+    "odl_user_2227324": "Recheck v2: NO_PERMISSION - Insufficient permissions",
     "odl_user_2227325": "Insufficient permissions - needs Purview Content Analyst role",
     "odl_user_2227326": "Insufficient permissions - needs Purview Content Analyst role",
-    "odl_user_2227327": "Blank/empty Posture Agent tab",
-    "odl_user_2227328": "Blank/empty Posture Agent tab",
+    "odl_user_2227327": "Recheck v2: CLASSIC_DIALOG - Classic portal dialog blocking",
+    "odl_user_2227328": "Recheck v2: NO_PERMISSION - Insufficient permissions",
     "odl_user_2227330": "Insufficient permissions - needs Purview Content Analyst role",
     "odl_user_2227331": "Insufficient permissions - needs Purview Content Analyst role",
-    "odl_user_2227332": "Blank/empty Posture Agent tab",
+    "odl_user_2227332": "Recheck v2: CLASSIC_DIALOG - Classic portal dialog blocking",
     "odl_user_2227335": "Insufficient permissions - needs Purview Content Analyst role",
     "odl_user_2227337": "Insufficient permissions - needs Purview Content Analyst role",
     "odl_user_2227339": "Insufficient permissions - needs Purview Content Analyst role",
-    "odl_user_2227342": "Blank/empty Posture Agent tab",
+    "odl_user_2227342": "Recheck v2: NO_PERMISSION - Insufficient permissions",
     "odl_user_2227343": "Insufficient permissions - needs Purview Content Analyst role",
-    "odl_user_2227345": "Blank/empty Posture Agent tab",
+    "odl_user_2227345": "Recheck v2: NO_PERMISSION - Insufficient permissions",
     "odl_user_2227346": "Insufficient permissions - needs Purview Content Analyst role",
-    "odl_user_2227414": "Blank/empty Posture Agent tab",
-    "odl_user_2227418": "Blank/empty Posture Agent tab",
-    "odl_user_2227421": "Blank/empty Posture Agent tab",
+    "odl_user_2227414": "Recheck v2: NO_PERMISSION - Insufficient permissions",
+    "odl_user_2227418": "Recheck v2: CLASSIC_DIALOG - Classic portal dialog blocking",
+    "odl_user_2227421": "Recheck v2: NO_PERMISSION - Insufficient permissions",
     "odl_user_2227423": "Insufficient permissions - needs Purview Content Analyst role",
-    "odl_user_2227495": "Blank/empty Posture Agent tab",
+    "odl_user_2227495": "Recheck v2: NO_PERMISSION - Insufficient permissions",
     "odl_user_2227496": "Insufficient permissions - needs Purview Content Analyst role",
     "odl_user_2227498": "Insufficient permissions - needs Purview Content Analyst role",
     "odl_user_2227500": "Insufficient permissions - needs Purview Content Analyst role",
@@ -87,15 +87,15 @@ NOT_FOUND_REMARKS = {
     "odl_user_2227502": "Insufficient permissions - needs Purview Content Analyst role",
     "odl_user_2227503": "Insufficient permissions - needs Purview Content Analyst role",
     "odl_user_2227506": "Insufficient permissions - needs Purview Content Analyst role",
-    "odl_user_2227507": "Blank/empty Posture Agent tab",
-    "odl_user_2227508": "Blank/empty Posture Agent tab",
-    "odl_user_2227510": "Blank/empty Posture Agent tab",
+    "odl_user_2227507": "Recheck v2: CLASSIC_DIALOG - Classic portal dialog blocking",
+    "odl_user_2227508": "Recheck v2: CLASSIC_DIALOG - Classic portal dialog blocking",
+    "odl_user_2227510": "Recheck v2: CLASSIC_DIALOG - Classic portal dialog blocking",
     "odl_user_2227511": "Insufficient permissions - needs Purview Content Analyst role",
     "odl_user_2227512": "Insufficient permissions - needs Purview Content Analyst role",
-    "odl_user_2227513": "Blank/empty Posture Agent tab",
+    "odl_user_2227513": "Recheck v2: NO_PERMISSION - Insufficient permissions",
     "odl_user_2227812": "Insufficient permissions - needs Purview Content Analyst role",
     "odl_user_2227813": "Insufficient permissions - needs Purview Content Analyst role",
-    "odl_user_2227821": "Blank/empty Posture Agent tab",
+    "odl_user_2227821": "Recheck v2: CLASSIC_DIALOG - Classic portal dialog blocking",
     "odl_user_2227825": "Insufficient permissions - needs Purview Content Analyst role",
     "odl_user_2227827": "Insufficient permissions - needs Purview Content Analyst role",
 }
@@ -209,12 +209,10 @@ def create_excel(results, spns):
             username = r.get("username", "")
             spn = spns.get(username, {})
 
-            # Derive remark for NOT_FOUND accounts from screenshot analysis
+            # Derive remark from screenshot analysis / recheck results
             remark = ""
-            if status == "NOT_FOUND":
-                # Extract odl_user key from username (email) e.g. odl_user_2227195@...
-                user_key = username.split("@")[0] if "@" in username else username
-                remark = NOT_FOUND_REMARKS.get(user_key, "")
+            user_key = username.split("@")[0] if "@" in username else username
+            remark = ACCOUNT_REMARKS.get(user_key, "")
 
             row_data = [
                 r.get("batch", ""),
