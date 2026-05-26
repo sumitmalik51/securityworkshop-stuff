@@ -1,0 +1,4 @@
+username,tenant_id,status,processing_status,matches_found,discovery_name,summary,start_time,end_time,error_code,checked_at
+odl_user_2226954@otuwacne103891.onmicrosoft.com,238850da-67d5-41ec-8b3a-1a4bbc3598f9,NOT_FOUND,,,,,,,,2026-05-26 01:34:55
+odl_user_2227227@otuwacne103892.onmicrosoft.com,3ac2ca41-8797-40fa-8aad-cf541dc22fa1,COMPLETED,Successful,29,Sensitive Password And Credentials Files,The Discovery agent found 29 items relevant to Sensitive Password And Credentials Files.,2026-05-25T12:37:10.462774Z,2026-05-25T12:48:10.635788Z,None,2026-05-26 01:27:59
+odl_user_2226956@otuwacne103893.onmicrosoft.com,ec56821f-5f6d-4b2a-9a3c-b7029424139d,TimedOut,TimedOut,0,Sensitive Password And Credentials Files,,2026-05-23T12:00:33.7843902Z,0001-01-01T00:00:00,None,2026-05-26 01:29:54

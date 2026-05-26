@@ -1,0 +1,2 @@
+username,tenant_id,irm_status,total_policies,warning_policies,recommendation_policies,healthy_policies,policy_details,remark,checked_at
+odl_user_2227843@otuwacne103926.onmicrosoft.com,8432a64e-a339-4256-a33e-d61c099f3734,HAS_RECOMMENDATIONS,4,0,3,0,"Lab - IRM Data Leak Monitoring [health:RecommendReview, ind:58/73]; Lab - IRM Data Theft Policy [health:RecommendReview, ind:62/77]; Lab - IRM Critical Data Leak [health:RecommendReview, ind:58/73]",3 policy recommendation(s),2026-05-25 15:54:51
