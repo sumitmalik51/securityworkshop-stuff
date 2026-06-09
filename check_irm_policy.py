@@ -177,20 +177,38 @@ def check_irm(username, password, tenant_id, index, total):
                     except Exception:
                         break
 
-                # Wait for page content to load
-                for _w in range(12):
+                # Wait for page content to fully load (up to 120s)
+                # Must wait until "Loading..." text and shimmer rows disappear
+                print("  Waiting for policies to load...")
+                for _w in range(24):
                     close_popups(page)
-                    # Check if policies table or content loaded
                     try:
-                        has_table = page.locator('[role="grid"], [role="table"], .ms-DetailsList, [class*="DataGrid"]').count() > 0
-                        has_policy = page.locator('text=/policy/i').count() > 0
-                        has_no_policy = page.locator('text=/no policies|no insider risk/i').count() > 0
+                        is_loading = False
+                        # Check for "Loading..." text
+                        loading_text = page.locator('text=/Loading/i')
+                        if loading_text.count() > 0:
+                            is_loading = True
+                        # Check for shimmer/spinner placeholders
+                        shimmers = page.locator('.ms-Shimmer-container, .ms-Spinner, [class*="shimmer"], [class*="Shimmer"], [class*="spinner"], [class*="loading"]')
+                        if shimmers.count() > 0:
+                            is_loading = True
+                        if is_loading:
+                            if _w % 4 == 0:
+                                print(f"  Still loading... ({_w*5}s)")
+                            time.sleep(5)
+                            continue
+                        # No loading indicators — check if data is present
                         has_error = page.locator('text=/don.*have.*permission|not authorized|access denied|something went wrong/i').count() > 0
-                        if has_table or has_policy or has_no_policy or has_error:
+                        if has_error:
                             break
+                        # Data loaded (or empty)
+                        break
                     except Exception:
                         pass
                     time.sleep(5)
+
+                # Extra wait after loading completes for rendering
+                time.sleep(3)
 
                 close_popups(page)
                 time.sleep(2)
